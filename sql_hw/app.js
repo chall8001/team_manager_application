@@ -3,9 +3,9 @@ let inquirer = require("inquirer");
 
 let connection = mysql.createConnection({
   host: "localhost",
-  port: "password",
+  port: 3030,
   user: "root",
-  password: "aRlo41ba",
+  password: "password",
   database: "employee_tracker"
 });
 //base inquirer functions
