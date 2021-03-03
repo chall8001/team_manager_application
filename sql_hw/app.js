@@ -3,7 +3,7 @@ let inquirer = require("inquirer");
 
 let connection = mysql.createConnection({
   host: "localhost",
-  port: 3306,
+  port: "password",
   user: "root",
   password: "aRlo41ba",
   database: "employee_tracker"
